@@ -1,0 +1,33 @@
+def aed_usd(amount):
+    exchange_rate=0.27
+    money=exchange_rate*amount
+    print("AED", amount," is equal to USD",money,"\n")
+
+def aed_eur(amount):
+    exchange_rate=0.25
+    money=exchange_rate*amount
+    print("AED",amount," is equal to EUR",money,"\n")
+
+def aed_gbp(amount):
+    exchange_rate=0.21
+    money=exchange_rate*amount
+    print("AED", amount," is equal to GBP",money,"\n")
+
+def usd_aed(amount):
+    exchange_rate=3.67
+    money=exchange_rate*amount
+    print("USD", amount," is equal to AED",money,"\n")
+
+def eur_aed(amount):
+    exchange_rate=3.98
+    money=exchange_rate*amount
+    print("EUR", amount," is equal to AED",money,"\n")
+
+def gbp_aed(amount):
+    exchange_rate=4.66
+    money=exchange_rate*amount
+    print("USD", amount," is equal to AED",money,"\n")
+
+
+
+
